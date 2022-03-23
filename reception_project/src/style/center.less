@@ -1,0 +1,45 @@
+#innerBox{
+  background-color: white;
+  padding-top: 58px;
+  margin: 0px auto;
+  width: 90%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  .centerTop{
+    display: flex;
+    position: relative;
+  }
+  .centerTopLeft{
+    flex: 1;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 25px;
+    box-sizing: border-box;
+    .tabInput{
+      width: 480px;
+    }
+    .userName{
+      margin: 8px 0;
+    }
+  }
+  .centerTopRight{
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+    .numTabs{
+      display: flex;
+      margin-bottom: 60px;
+      div{
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  }
+}
+#outBox{
+  background-color: #f1f1f1;
+}
